@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/y2s/proprietary/system/etc/init/init.rilmptcp.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilmptcp.rc \
-    vendor/samsung/y2s/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/y2s/proprietary/system/bin/ikev2-client:$(TARGET_COPY_OUT_SYSTEM)/bin/ikev2-client \
     vendor/samsung/y2s/proprietary/system/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.gpscommon.rc \
     vendor/samsung/y2s/proprietary/system/etc/init/init.rilepdg.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilepdg.rc \
@@ -45,7 +44,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/y2s/proprietary/system/lib64/vendor.samsung_slsi.hardware.configstore-utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung_slsi.hardware.configstore-utils.so \
     vendor/samsung/y2s/proprietary/system/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so \
     vendor/samsung/y2s/proprietary/system/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so \
-    vendor/samsung/y2s/proprietary/vendor/firmware/fruc_kernels.exynos990.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fruc_kernels.exynos990.bin
+    vendor/samsung/y2s/proprietary/vendor/firmware/fruc_kernels.exynos990.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fruc_kernels.exynos990.bin \
+    vendor/samsung/y2s/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so
 PRODUCT_COPY_FILES += \
     vendor/samsung/y2s/proprietary/system/lib/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/y2s/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
