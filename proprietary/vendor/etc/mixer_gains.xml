@@ -883,15 +883,22 @@
 		<ctl name="VTS CONTROL DMIC AUD GAIN1" value="21" />
 	</path>
 
-    <!-- Karaoke Listenback MIC paths -->
-    <path name="gain-listenback-mic">
-    </path>
+	<!-- Karaoke Listenback MIC paths -->
+	<path name="gain-listenback-mic">
+		<ctl name="VTS DMIC GAIN MODE0" value="6168" />
+		<ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
+	</path>
 
-    <path name="gain-listenback-usb-headset-mic">
-    </path>
+	<path name="gain-listenback-usb-headset-mic">
+	</path>
 
-    <path name="gain-listenback-bt-sco-headset-in">
-    </path>
+	<path name="gain-listenback-bt-sco-headset-in">
+	</path>
+
+	<path name="gain-listenback-headphone-mic">
+		<ctl name="VTS DMIC GAIN MODE0" value="6168" />
+		<ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
+	</path>
 
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic">
